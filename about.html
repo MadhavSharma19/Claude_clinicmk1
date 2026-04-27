@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About – Dr. Varinder Arora Clinic</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <div class="loader-cross"></div>
+      <p class="loader-text">Dr. Varinder Arora Clinic</p>
+    </div>
+  </div>
+
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <span class="logo-icon"><i class="fas fa-heartbeat"></i></span>
+      <span class="logo-text">Dr. Varinder Arora</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="#" class="nav-book-btn" id="navBookBtn">Book Appointment</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon" id="themeIcon"></i>
+      </button>
+      <button class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-content reveal">
+      <p class="section-label">Our Story</p>
+      <h1>About the Clinic</h1>
+      <p>A decade of trust, compassion, and medical excellence in Punjab</p>
+    </div>
+  </section>
+
+  <!-- DOCTOR SECTION -->
+  <section class="doctor-section">
+    <div class="doctor-grid reveal">
+      <div class="doctor-image-wrap">
+        <!-- Image file: images/doctor.jpg -->
+        <img src="images/doctor.jpg" alt="Dr. Varinder Arora" class="doctor-img" onerror="this.src='https://via.placeholder.com/400x500/2a7fba/ffffff?text=Dr.+Varinder+Arora'"/>
+        <div class="doctor-badge">
+          <i class="fas fa-award"></i>
+          <span>10+ Years<br/>Experience</span>
+        </div>
+      </div>
+      <div class="doctor-info">
+        <p class="section-label">Meet the Doctor</p>
+        <h2>Dr. Varinder Arora</h2>
+        <p class="doctor-degree">MBBS · MD (General Medicine) · PGDM (Cardiology)</p>
+        <p class="doctor-bio">
+          Dr. Varinder Arora is one of Punjab's most trusted and respected physicians with over a decade of clinical excellence. Having trained at premier institutions and practiced across major hospitals, he brings a patient-first philosophy to every consultation.
+        </p>
+        <p class="doctor-bio">
+          His approach combines the precision of modern diagnostics with genuine empathy — ensuring each patient leaves not just treated, but understood and reassured.
+        </p>
+        <div class="doctor-tags">
+          <span><i class="fas fa-check-circle"></i> General Medicine</span>
+          <span><i class="fas fa-check-circle"></i> Cardiology</span>
+          <span><i class="fas fa-check-circle"></i> Diabetes Management</span>
+          <span><i class="fas fa-check-circle"></i> Preventive Healthcare</span>
+          <span><i class="fas fa-check-circle"></i> Critical Care</span>
+        </div>
+        <button class="btn-primary" id="aboutBookBtn">
+          <i class="fas fa-calendar-plus"></i> Book a Consultation
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE / CLINIC HISTORY -->
+  <section class="timeline-section reveal">
+    <div class="section-header">
+      <p class="section-label">Our Journey</p>
+      <h2 class="section-title">Clinic Milestones</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item left reveal-item">
+        <div class="timeline-content">
+          <div class="timeline-year">2010</div>
+          <h3>Clinic Founded</h3>
+          <p>Dr. Varinder Arora opened the clinic in Ludhiana with a vision to deliver affordable, quality care to Punjab.</p>
+        </div>
+      </div>
+      <div class="timeline-item right reveal-item">
+        <div class="timeline-content">
+          <div class="timeline-year">2013</div>
+          <h3>Cardiology Wing Added</h3>
+          <p>Expanded to include a dedicated cardiology unit with advanced ECG, stress testing, and echo facilities.</p>
+        </div>
+      </div>
+      <div class="timeline-item left reveal-item">
+        <div class="timeline-content">
+          <div class="timeline-year">2016</div>
+          <h3>In-House Diagnostics</h3>
+          <p>Launched a fully equipped laboratory for blood work, pathology, and radiology — results within hours.</p>
+        </div>
+      </div>
+      <div class="timeline-item right reveal-item">
+        <div class="timeline-content">
+          <div class="timeline-year">2019</div>
+          <h3>10,000 Patients Milestone</h3>
+          <p>Celebrated serving over 10,000 patients — a testament to community trust built over nearly a decade.</p>
+        </div>
+      </div>
+      <div class="timeline-item left reveal-item">
+        <div class="timeline-content">
+          <div class="timeline-year">2022</div>
+          <h3>Clinic Renovation</h3>
+          <p>Fully renovated with modern equipment, private consultation rooms, and a dedicated pediatric zone.</p>
+        </div>
+      </div>
+      <div class="timeline-item right reveal-item">
+        <div class="timeline-content">
+          <div class="timeline-year">2025</div>
+          <h3>Online Booking Launched</h3>
+          <p>Introduced digital appointment booking — making healthcare access even easier for our patients.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREDENTIALS BAND -->
+  <section class="credentials-band reveal">
+    <div class="credentials-grid">
+      <div class="credential-item">
+        <i class="fas fa-graduation-cap"></i>
+        <h4>MBBS – PGIMER Chandigarh</h4>
+        <p>Top-ranked medical institution in India</p>
+      </div>
+      <div class="credential-item">
+        <i class="fas fa-hospital"></i>
+        <h4>MD – General Medicine</h4>
+        <p>Dayanand Medical College, Ludhiana</p>
+      </div>
+      <div class="credential-item">
+        <i class="fas fa-certificate"></i>
+        <h4>Certified Cardiologist</h4>
+        <p>Indian College of Cardiology</p>
+      </div>
+      <div class="credential-item">
+        <i class="fas fa-trophy"></i>
+        <h4>Best Physician Award</h4>
+        <p>Punjab Medical Association, 2021</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-logo"><i class="fas fa-heartbeat"></i> Dr. Varinder Arora</div>
+        <p>Providing compassionate, evidence-based medical care to the people of Punjab since 2010.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Doctor</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="#" id="footerBookBtn">Book Appointment</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">General Consultation</a></li>
+          <li><a href="#">Cardiology</a></li>
+          <li><a href="#">Neurology</a></li>
+          <li><a href="#">Orthopedics</a></li>
+          <li><a href="#">Pediatrics</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Info</h4>
+        <ul class="contact-list">
+          <li><i class="fas fa-map-marker-alt"></i> Civil Lines, Ludhiana, Punjab</li>
+          <li><i class="fas fa-phone"></i> +91 98765 43210</li>
+          <li><i class="fas fa-envelope"></i> info@drvarinderarora.com</li>
+          <li><i class="fas fa-clock"></i> Mon–Sat: 9 AM – 7 PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Dr. Varinder Arora Clinic. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- APPOINTMENT MODAL -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="appointmentModal">
+      <button class="modal-close" id="modalClose"><i class="fas fa-times"></i></button>
+      <div class="modal-header">
+        <div class="modal-icon"><i class="fas fa-calendar-plus"></i></div>
+        <h2>Book an Appointment</h2>
+        <p>Fill in your details and we'll confirm shortly</p>
+      </div>
+      <form class="modal-form" id="appointmentForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Full Name *</label>
+            <input type="text" id="apptName" placeholder="Your full name" required/>
+          </div>
+          <div class="form-group">
+            <label>Phone Number *</label>
+            <input type="tel" id="apptPhone" placeholder="+91 XXXXX XXXXX" required/>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" id="apptEmail" placeholder="your@email.com"/>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Preferred Date *</label>
+            <input type="date" id="apptDate" required/>
+          </div>
+          <div class="form-group">
+            <label>Time Slot *</label>
+            <select id="apptTime" required>
+              <option value="">Select a slot</option>
+              <option>9:00 AM – 9:30 AM</option>
+              <option>9:30 AM – 10:00 AM</option>
+              <option>10:00 AM – 10:30 AM</option>
+              <option>10:30 AM – 11:00 AM</option>
+              <option>11:00 AM – 11:30 AM</option>
+              <option>2:00 PM – 2:30 PM</option>
+              <option>2:30 PM – 3:00 PM</option>
+              <option>3:00 PM – 3:30 PM</option>
+              <option>4:00 PM – 4:30 PM</option>
+              <option>5:00 PM – 5:30 PM</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Reason for Visit *</label>
+          <textarea id="apptReason" rows="3" placeholder="Briefly describe your symptoms or reason..." required></textarea>
+        </div>
+        <button type="submit" class="btn-primary full">
+          <i class="fas fa-paper-plane"></i> Confirm Appointment
+        </button>
+        <div class="form-message" id="apptMessage"></div>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
